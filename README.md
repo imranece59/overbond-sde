@@ -111,7 +111,7 @@ refer:- calculateBestbenchMarkDf method in ProcessDataHelper class
 |{"data":[{"corporate_bond_id":"c1","government_bond_id":"g1","spread_to_benchmark":"280.0 bps"}]}|
 +-------------------------------------------------------------------------------------------------+
 
-![Screenshot](Capture.png)
+![alt tag]https://github.com/imranece59/overbond-sde/blob/master/Capture.PNG
 
 **Eclipse Build**
 
@@ -121,9 +121,9 @@ refer:- calculateBestbenchMarkDf method in ProcessDataHelper class
 
 
 **Notes**
-This is a pure Spark/Scala program which run on local mode. 
+ 
 - if you face any error while writing the final dataset to output path you must be missing the correct hadoop version or setting winutils required for 
-- hadoop write 
+hadoop write 
 - You dont need winutils setup if you run from EMR or cluster without master as local[*]
 
 
